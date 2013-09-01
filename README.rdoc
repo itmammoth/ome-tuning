@@ -1,3 +1,4 @@
 == Bookshelfデモアプリ
 
 これは、Oh My Enter! 「Railsアプリを『浅く』パフォーマンス・チューニングしてみる」のデモアプリです。
+http://www.ohmyenter.com/?p=70
