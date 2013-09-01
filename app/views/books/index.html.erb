@@ -1,0 +1,14 @@
+<table class="bookshelf">
+  <tr>
+    <th class="bookshelf" colspan="999">Bookshelf</th>
+  </tr>
+  <% @books.each_slice(7) do |line_of_books| %>
+  <tr>
+    <% 7.times do |col| %>
+      <td>
+        <%= render 'book', book: line_of_books[col] if line_of_books[col] %>
+      </td>
+    <% end %>
+  </tr>
+  <% end %>
+</table>

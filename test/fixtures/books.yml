@@ -1,0 +1,6 @@
+<% 1000.times do |i| %>
+book<%= i %>:
+  author: author<%= i %>
+  title: <%= Faker::Lorem.words(1).first %>
+  description: <%= Faker::Lorem.paragraph(3) %>
+<% end %>

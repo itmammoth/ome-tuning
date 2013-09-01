@@ -1,0 +1,15 @@
+.bundle/
+db/development.sqlite3
+db/test.sqlite3
+db/schema.rb
+db/dump/
+log/
+tmp/
+vendor/bundle
+coverage/
+public/system/attachments
+*.swp
+.DS_Store
+*.ods#
+.tags
+*.sublime-*

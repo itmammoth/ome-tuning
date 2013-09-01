@@ -1,0 +1,24 @@
+@mixin bookshelf-border {
+  border: 1px solid;
+  border-spacing: 5px;
+}
+
+table.bookshelf {
+  @include bookshelf-border;
+
+  th {
+    font-weight: bold;
+    font-size: 200%;
+    @include bookshelf-border;
+    padding: 5px;
+  }
+
+  tr, td {
+    @include bookshelf-border;
+    padding: 5px;
+  }
+}
+
+.title {
+  font-weight: bold;
+}
