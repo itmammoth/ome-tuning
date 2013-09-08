@@ -1,6 +1,6 @@
 <div class="book" data-description="<%= book.description %>">
   <div class="title">
-    <%= link_to book.title, book %>
+    <%= link_to book.title, "/books/#{book.id}" %>
   </div>
   <div class="author"><%= book.author.name %></div>
 </div>

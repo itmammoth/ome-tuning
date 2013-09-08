@@ -6,7 +6,9 @@
   <tr>
     <% 7.times do |col| %>
       <td>
-        <%= render 'book', book: line_of_books[col] if line_of_books[col] %>
+        <% if book = line_of_books[col] %>
+          <%= raw render_book(book) %>
+        <% end %>
       </td>
     <% end %>
   </tr>
