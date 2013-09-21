@@ -3,7 +3,7 @@
   border-spacing: 5px;
 }
 
-table.bookshelf {
+#bookshelf {
   @include bookshelf-border;
 
   th {
